@@ -1,0 +1,44 @@
+
+
+.message{
+	align-items: center;
+	background-color:  #f7f7f7;;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 124px;
+	padding-top:183px;
+	
+
+	&__icon{
+		width: 32px;
+		height: 27px;
+	}
+	&__header{
+		color:  #353638;
+		font-family: 'Lato', sans-serif;
+		font-size: 18px;
+		text-align: center;
+		font-weight: 700;
+		padding-top:37px;
+		padding-bottom:27px;
+		
+		&_mainstr{
+			display: inline;
+		}
+		&_str{
+			color:  #848789;
+			font-weight: 300;
+			display: inline;
+		}
+	}
+	&__discription{
+		font-family: 'Lato', sans-serif;
+		color:  #848789;
+		font-size: 24px;
+		font-style: italic;
+		font-weight: 400;
+		line-height: 34px;
+		text-align: center;
+		padding:0 230px 0 230px;
+	}
+}
