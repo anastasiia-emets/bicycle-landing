@@ -6,6 +6,7 @@ const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 const pug = require('gulp-pug');
 const image = require('gulp-image');
+var concat       = require('gulp-concat');
 
 const distDirectory = 'dist';
 const htmlBlob = 'src/**/*.pug';
@@ -20,7 +21,7 @@ gulp.task('d', function () {
 gulp.task('build', function () {
     return runSequence(
         'cleanDist',
-        ['processStyles', 'processHtml', 'processImages', 'processFonts']
+        ['processStyles', 'processHtml', 'processImages', 'processFonts','js']
     );
 });
 
@@ -80,10 +81,9 @@ gulp.task('processStyles', function () {
 });
 gulp.task('js', function() {
 	return gulp.src([
-		'src/js/*.js',
+		'src/js/*.js','src/owl.carousel/owl.carousel.min.js',
 		])
 	.pipe(concat('*.js'))
-	// .pipe(uglify()) // Mifify js (opt.)
 	.pipe(gulp.dest('src/js'))
 	.pipe(browserSync.reload({ stream: true }))
 });
