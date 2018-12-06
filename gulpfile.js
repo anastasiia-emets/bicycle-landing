@@ -22,11 +22,15 @@ gulp.task('copy-libs', function () {
     return gulp.src('src/lib/**')
         .pipe(gulp.dest('dist/lib/'));
 });
+gulp.task('copy-js', function () {
+    return gulp.src('src/js/**')
+        .pipe(gulp.dest('dist/js/'));
+});
 
 gulp.task('build', function () {
     return runSequence(
         'cleanDist',
-        ['processStyles', 'processHtml', 'processImages', 'copy-libs']
+        ['processStyles', 'processHtml', 'processImages', 'copy-libs','copy-js']
     );
 });
 
