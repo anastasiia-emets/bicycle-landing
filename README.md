@@ -11,12 +11,12 @@ Includes:
 - Install gulp $ npm install 
 - Run the project with a gulp $ npx gulp
 # Result
-![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/YEBO_Bicycle_Theme.psd "bicycle")
+![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/Untitled.png "bicycle")
 
 The layout has an adaptive version 
 
 ![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/1.png "bicycle")
 
-![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/Untitled_1.png "bicycle")
+![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/Untitled1.png "bicycle")
 
 
