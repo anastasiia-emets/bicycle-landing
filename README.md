@@ -11,7 +11,7 @@ Includes:
 - Install gulp $ npm install 
 - Run the project with a gulp $ npx gulp
 # Result
-![alt text](https://raw.githubusercontent.com/bootstrapthemesco/fitness-html-one-page-bootstrap-template/master/Fitness.jpg)
+![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/YEBO_Bicycle_Theme.psd)
 
 The layout has an adaptive version 
 
