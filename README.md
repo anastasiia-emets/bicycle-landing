@@ -17,6 +17,6 @@ The layout has an adaptive version
 
 ![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/1.png "bicycle")
 
-![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/Untitled1.png "bicycle")
+![alt text](https://github.com/anastasiia-emets/bicycle-landing/blob/master/Untitled_1.png "bicycle")
 
 
