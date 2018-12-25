@@ -7,9 +7,9 @@ Includes:
 - Pug
 - Sass
 # How to use?
-Clone repository $ git clone https://github.com/anastasiia-emets/bicycle-landing.git
-Install gulp $ npm install 
-run the project with a gulp $ npx gulp
+- Clone repository $ git clone https://github.com/anastasiia-emets/bicycle-landing.git
+- Install gulp $ npm install 
+- Run the project with a gulp $ npx gulp
 # Result
 ![alt text](https://raw.githubusercontent.com/bootstrapthemesco/fitness-html-one-page-bootstrap-template/master/Fitness.jpg)
 
