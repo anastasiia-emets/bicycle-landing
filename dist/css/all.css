@@ -1027,7 +1027,7 @@ button:hover {
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../../images/twitter.png) center center no-repeat, #00aeef;
+  background: url(../images/twitter.png) center center no-repeat, #00aeef;
 }
 
 .footer__icons_face {
@@ -1035,7 +1035,7 @@ button:hover {
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../../images/face.png) center center no-repeat, #2e3192;
+  background: url(../images/face.png) center center no-repeat, #2e3192;
 }
 
 .footer__icons_pinter {
@@ -1043,7 +1043,7 @@ button:hover {
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../../images/pinter.png) center center no-repeat, #ed3123;
+  background: url(../images/pinter.png) center center no-repeat, #ed3123;
 }
 
 .footer__author {
