@@ -1,0 +1,78 @@
+
+.footer{
+	background-color:  #f7f7f7;
+	padding-top:200px;
+	padding-bottom:140px;
+	display:flex;
+	justify-content: space-between;
+	&__address{
+		margin-left:150px;
+		&_town{
+			font-size: 16px;
+			font-weight: 700;
+			font-family: 'Lato', sans-serif;
+			color:  #848789;
+			line-height: 18px;
+			text-align: left;
+		}
+		&_index{
+			font-size: 13px;
+			font-style: italic;
+			font-weight: 400;
+			font-family: 'Lato', sans-serif;
+			color:  #848789;
+			line-height: 18px;
+			text-align: left;
+		}
+		&_email{
+			font-size: 13px;
+			font-style: italic;
+			font-weight: 400;
+			font-family: 'Lato', sans-serif;
+			color:  #848789;
+			line-height: 18px;
+			text-align: left;
+		}
+	}
+	&__icons{
+		display: flex;
+		&_twitter{
+			border-radius: 50%;
+			margin-right: 10px;
+			width: 35px;
+			height: 34px;
+			background: url(../../images/twitter.png) center center no-repeat,#00aeef;
+		}
+		&_face{
+			border-radius: 50%;
+			margin-right: 10px;
+			width: 35px;
+			height: 34px;
+			background: url(../../images/face.png) center center no-repeat, #2e3192;
+		}
+		&_pinter{
+			border-radius: 50%;
+			margin-right: 10px;
+			width: 35px;
+			height: 34px;
+			background: url(../../images/pinter.png) center center no-repeat, #ed3123;
+		}
+	}
+	&__author{
+		margin-right:150px;
+		display: flex;
+		&_signatre{
+			font-family: 'Lato', sans-serif;
+			color:  #848789;
+			font-size: 13.9px;/* Приближение из-за подстановки шрифтов */
+			font-style: italic;
+			line-height: 18px;
+			margin-right: 9px;
+		}
+		&_logo{
+			width: 55px;
+			height: 36px;
+			margin-bottom:11px;
+		}
+	}
+}

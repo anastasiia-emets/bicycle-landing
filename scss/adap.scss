@@ -1,0 +1,316 @@
+@media (min-width: 1024px) and (max-width: 1370px) {
+	.news__discription{
+		padding: 0 200px 0 200px !important;
+	}
+	.news{
+		width: 100%;
+	
+	}
+	.gallary-card2{
+		height: 85%;
+	}
+	.information-block,
+	.information-block2 {
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: center;
+		padding: 0%;
+		margin-bottom:0px;
+	}
+	.retrobike_block,
+	.retrobike_block-info{
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.news__discription{
+		padding: 0 43px 0 43px !important;
+	}
+
+	.information-block,
+	.information-block2 {
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		height: auto;
+		justify-content: center;
+		padding: 0%;
+		margin-bottom:0px;
+	}
+
+	.gallary-card__photo,
+	.gallary-card2__photo{
+		display: none;
+	}
+	.retrobike_block-img,
+	.retrobike_block-img_1,
+	.retrobike_block-info__discription{
+		display: none;
+	}
+	.wrapper{
+		margin-top:-100px;
+	}
+	
+	.block_footer, 
+	.footer-forms {
+		flex-wrap: wrap;
+	}
+	.message__discription{
+		padding: 0 80px 0 80px !important;
+	}
+	.header {
+		height: 100vh;
+	}
+}
+@media (min-width: 500px) and (max-width: 767px) {
+	body{
+	background: #f7f7f7;
+	}
+	
+	.message__discription{
+		padding: 0 23px 0 23px !important;
+	}
+	.news__discription{
+		padding: 0 23px 0 23px !important;
+	}
+	.gallary-image,
+	.gallary-image2,
+	.retrobike_block-img_1,
+	.retrobike_block-img{
+		display: none;
+	}
+	
+	.news{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.news__discription{
+		padding-left:10px;
+		padding-right:10px;
+		width: 80%;
+	}
+	
+
+	.retrobike_block-img__photo{
+		display:none;
+	}
+	.gallary-card2{
+		height: 85%;
+	}
+	
+	.information-block,
+	.information-block2 {
+		display:none;
+	}
+
+	
+	.retrobike_block-info{
+		width: 480px;
+		padding: 0;
+	}
+
+	.gallary-image{
+		width: 100vh;
+	}
+	.retrobike_block-info__photo{
+		display: none;
+	}
+	.retrobike_block-info{
+		height: 50%;
+	}
+	
+	.block_footer, 
+	.footer-forms {
+		flex-wrap: wrap;
+	}
+	.retrobike_block-img{
+		display: none;
+	}
+	
+
+	
+	.header {
+		height: 100vh;
+		width:100vh;
+		&__linki{
+			flex-wrap: wrap;
+			width: 500px;
+	
+		}
+	}
+	.footer,.search-block{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin:0;
+		height: auto;
+	
+	}
+	.search-block__forms{
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-left:2%;
+		display: flex;
+		margin-right: 2%;
+	}
+	.search-block__forms_input{
+		width: 90%;
+		margin:0 auto;
+	}
+	.search-block__forms_button{
+		width: 30%;
+		display: flex;
+		margin: 0 auto;
+	}
+	.footer__address{
+		display: none;
+	}
+	.footer__icons{
+		width: 50%;
+		margin: 0 auto;
+		justify-content: center;
+		margin-top:-150px;
+	}
+	.footer__author{
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.information-block__item-2{
+		padding: 0;
+		width: 100%;
+	}
+}
+@media (min-width: 310px) and (max-width: 500px) {
+	body{
+	background: #f7f7f7;
+	}
+	.news__discription{
+		padding: 0 13px 0 13px !important;
+	}
+	.message__discription{
+		padding: 0 13px 0 13px !important;
+	}
+	.message__header{
+		width: 90%;
+	}
+	.news{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.news__discription{
+		padding-left:10px;
+		padding-right:10px;
+		width: 80%;
+	}
+	.gallary-card2__photo,
+	.gallary-card__photo,
+	.gallary-image2,
+	.gallary-image__photo{
+		display: none;
+	}
+	.gallary-card,
+	.gallary-card2{
+		width: 400px;
+		text-align: center;
+		margin: 0;
+	}
+	.gallary-image,
+	.gallary-image2,
+	.retrobike_block-img_1,
+	.retrobike_block-img{
+		display: none;
+	}
+
+	.retrobike_block-img__photo{
+		display:none;
+	}
+
+
+	.retrobike_block-info{
+		width: 320px;
+		text-align: center;
+		padding: 0;
+	}
+
+	
+	.retrobike_block-info__photo{
+		display: none;
+	}
+	.retrobike_block-info{
+		height: 50%;
+	}
+	
+	.block_footer, 
+	.footer-forms {
+		flex-wrap: wrap;
+	}
+	.retrobike_block-img{
+		display: none;
+	}
+	.header {
+		height: 100vh;
+		width:100vh;
+		&__linki{
+			flex-wrap: wrap;
+			width: 300px;
+		&_photo{
+			display: none;
+		}
+		}
+	}
+	.footer,.search-block{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin:0;
+		height: auto;
+	
+	}
+	.search-block__forms{
+		flex-wrap: wrap;
+		margin: 0 auto;
+		margin-left:2%;
+		display: flex;
+		margin-right: 2%;
+	}
+	.search-block__forms_input{
+		width: 90%;
+		margin:0 auto;
+	}
+	.search-block__forms_button{
+		width: 30%;
+		display: flex;
+		margin: 0 auto;
+	}
+	.footer__address{
+		display: none;
+	}
+	.footer__icons{
+		width: 50%;
+		margin: 0 auto;
+		justify-content: center;
+		margin-top:-150px;
+	}
+	.header__linki{
+		width: 90%;
+	}
+	.footer__author{
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+@media (min-width: 310px) and (max-width: 370px){
+	.gallary-card,
+	.gallary-card2{
+		width: 300px;
+		text-align: center;
+		margin: 0;
+	}
+
+}
