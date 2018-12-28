@@ -1,28 +1,11 @@
-@media (min-width: 1800px) and (min-width: 1279px){
-	.news__discription
-	{
-	padding: 0 243px 0 243px;
-	}
-	.message__discription
-	{
-	padding: 0 243px 0 243px;
-	}
-}
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1370px) {
 	.news__discription{
-		padding: 0 243px 0 243px;
+		padding: 0 200px 0 200px !important;
 	}
-	
 	.news{
 		width: 100%;
-		&__discription{
-			width: 120%;
-		}
+	
 	}
-	.gallary-card2__photo{
-		display: none;
-	}
-
 	.gallary-card2{
 		height: 85%;
 	}
@@ -36,21 +19,14 @@
 		padding: 0%;
 		margin-bottom:0px;
 	}
-	
-
-	.retrobike_block-info__photo{
+	.retrobike_block,
+	.retrobike_block-info{
 		display: none;
 	}
-	.retrobike_block-info{
-		height: 50%;
-	}
-	
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-	
-	
-	.news{
-		width: 90%;
+	.news__discription{
+		padding: 0 43px 0 43px !important;
 	}
 
 	.information-block,
@@ -70,21 +46,21 @@
 		display: none;
 	}
 	.retrobike_block-img,
-	.retrobike_block-img_1{
+	.retrobike_block-img_1,
+	.retrobike_block-info__discription{
 		display: none;
 	}
-
-	
-
-	.retrobike_block-info{
-		height: 50%;
+	.wrapper{
+		margin-top:-100px;
 	}
 	
 	.block_footer, 
 	.footer-forms {
 		flex-wrap: wrap;
 	}
-	
+	.message__discription{
+		padding: 0 80px 0 80px !important;
+	}
 	.header {
 		height: 100vh;
 	}
@@ -95,8 +71,10 @@
 	}
 	
 	.message__discription{
-		padding-left: 0px;
-		padding-right: 0 px;
+		padding: 0 23px 0 23px !important;
+	}
+	.news__discription{
+		padding: 0 23px 0 23px !important;
 	}
 	.gallary-image,
 	.gallary-image2,
@@ -206,14 +184,16 @@
 		padding: 0;
 		width: 100%;
 	}
-	
-
-
-
 }
-@media (min-width: 350px) and (max-width: 500px) {
+@media (min-width: 310px) and (max-width: 500px) {
 	body{
 	background: #f7f7f7;
+	}
+	.news__discription{
+		padding: 0 13px 0 13px !important;
+	}
+	.message__discription{
+		padding: 0 13px 0 13px !important;
 	}
 	.message__header{
 		width: 90%;
@@ -249,22 +229,15 @@
 	.retrobike_block-img__photo{
 		display:none;
 	}
-	.gallary-card2{
-		height: 85%;
-	}
-	
 
 
 	.retrobike_block-info{
 		width: 320px;
 		text-align: center;
 		padding: 0;
-	
 	}
 
-	.gallary-image{
-		width: 100vh;
-	}
+	
 	.retrobike_block-info__photo{
 		display: none;
 	}
@@ -279,15 +252,12 @@
 	.retrobike_block-img{
 		display: none;
 	}
-	
-
-	
 	.header {
 		height: 100vh;
 		width:100vh;
 		&__linki{
 			flex-wrap: wrap;
-		width: 350px;
+			width: 300px;
 		&_photo{
 			display: none;
 		}
@@ -326,15 +296,21 @@
 		justify-content: center;
 		margin-top:-150px;
 	}
+	.header__linki{
+		width: 90%;
+	}
 	.footer__author{
 		width: 50%;
 		margin: 0 auto;
 		text-align: center;
 	}
-	
-	
-	
-
-
+}
+@media (min-width: 310px) and (max-width: 370px){
+	.gallary-card,
+	.gallary-card2{
+		width: 300px;
+		text-align: center;
+		margin: 0;
+	}
 
 }

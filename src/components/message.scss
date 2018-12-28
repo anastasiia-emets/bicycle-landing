@@ -1,15 +1,16 @@
 
 .wrapper{
 	background-color:  #f7f7f7;;
-
+	margin-bottom:40px;
 }
 .message{
 	align-items: center;
 	background-color:  #f7f7f7;;
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 124px;
+	padding-bottom: 80px;
 	padding-top:183px;
+
 	
 
 	&__icon{
@@ -43,6 +44,6 @@
 		font-weight: 400;
 		line-height: 34px;
 		text-align: center;
-		padding:0 20px 0 20px;
+		padding:0 200px 0 200px;
 	}
 }

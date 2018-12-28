@@ -5,15 +5,13 @@
   box-sizing: border-box;
 }
 .header{
-  background: url(../../images/backg.png);
+  background: url(../images/backg1.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	max-width: 100%;
 	position: relative;
-
-
     &__linki{
       display: flex;
 	    flex-direction: row;
@@ -24,6 +22,7 @@
           padding-left:33px;
           margin-top:68px;
           color:  #4d4959;
+          font-weight: 700;
           font-size: 13px;
           font-family: 'Lato', sans-serif;
         }

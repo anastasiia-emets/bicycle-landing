@@ -19,14 +19,14 @@
 		}
 	}
 .gallary-image{
-	width: 100%;
+
 	height: 100%;
 	background-image: url(../../images/bike1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	&__photo{
-		width: 113px;
+
 		height: 118px;
 		margin: 0 auto;
 		display: flex;
@@ -55,6 +55,8 @@
 		text-align: center;
 		padding-top:10px;
 		padding-bottom:10px;
+		font-weight: 700;
+
 	}
 	&__discription{
 		font-family: 'Lato', sans-serif;
