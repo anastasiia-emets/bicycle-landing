@@ -3,7 +3,7 @@
 }
 .retrobike_block{
 	display: grid;
-	grid-template-columns: 2.15fr 2fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 450px;
 	margin: 0 auto;
 	padding-top:50px;
@@ -11,14 +11,17 @@
 	padding-top: 1px;
 	&-img{
 		width: 100%;
+		grid-column: 1;
+    grid-row: 1;
 		height: 100%;
 		background-image: url(../../images/retrobike1.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
+		object-fit: cover;
 		&__photo{
 			width: 177px;
-			height: 152px;;
+			height: 152px;
 			margin: 0 auto;
 			display: flex;
 			position: absolute;
@@ -28,9 +31,9 @@
 	}
 	&-img_1{
 		grid-column: 3;
+		object-fit: cover;
     grid-row: 1;
 		width: 100%;
-
 		background-image: url(../../images/retrobike2.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -38,14 +41,16 @@
 	}
 	&-info{
 		grid-column: 2;
-    grid-row: 1;
+		grid-row: 1;
+		
 		align-items: center;
 		background-color:  #f7f7f7;;
 		display: flex;
 		flex-direction: column;
-		padding-top:20px;
+
 		height: auto;
 		&__icon{
+			padding-top:20px;
 			width: 23px;
 			height: 41px;
 		}
@@ -65,8 +70,11 @@
 			font-weight: 400;
 			line-height: 25px;
 			text-align: center;
-			padding:0 60px 30px 60px;
+			padding:0 90px 30px 90px;
 			text-align: justify;
+		}
+		&__photo_img{
+			width: 100%;
 		}
 	}
 }
