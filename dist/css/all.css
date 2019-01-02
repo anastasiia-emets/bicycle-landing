@@ -476,7 +476,7 @@
 
 .gallary-image {
   height: 100%;
-  background-image: url(../../images/bike1.jpg);
+  background-image: url(../images/bike1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -589,7 +589,7 @@
 
 .gallary-image2 {
   height: 100%;
-  background-image: url(../../images/bike4.jpg);
+  background-image: url(../images/bike4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -752,7 +752,7 @@
   grid-column: 1;
   grid-row: 1;
   height: 100%;
-  background-image: url(../../images/retrobike1.jpg);
+  background-image: url(../images/retrobike1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -778,7 +778,7 @@
      object-fit: cover;
   grid-row: 1;
   width: 100%;
-  background-image: url(../../images/retrobike2.jpg);
+  background-image: url(../images/retrobike2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -847,7 +847,7 @@
   grid-column: 1;
   grid-row: 1;
   width: 100%;
-  background-image: url(../../images/gallery1.jpg);
+  background-image: url(../images/gallery1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transition: all .5s;
@@ -1129,7 +1129,7 @@ button:hover {
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../../images/twitter.png) center center no-repeat, #00aeef;
+  background: url(../images/twitter.png) center center no-repeat, #00aeef;
 }
 
 .footer__icons_face {
@@ -1137,7 +1137,7 @@ button:hover {
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../../images/face.png) center center no-repeat, #2e3192;
+  background: url(../images/face.png) center center no-repeat, #2e3192;
 }
 
 .footer__icons_pinter {
@@ -1145,7 +1145,7 @@ button:hover {
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../../images/pinter.png) center center no-repeat, #ed3123;
+  background: url(../images/pinter.png) center center no-repeat, #ed3123;
 }
 
 .footer__icons_pinter:hover, .footer__icons_face:hover, .footer__icons_twitter:hover {
