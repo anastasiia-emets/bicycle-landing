@@ -171,6 +171,8 @@
   .search-block__forms_input {
     width: 90%;
     margin: 0 auto;
+    font-size: 18px !important;
+    padding: 10px -10px 10px 0px !important;
   }
   .search-block__forms_button {
     width: 30%;
@@ -178,6 +180,7 @@
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
+    margin-top: 20px;
   }
   .footer__address {
     display: none;
@@ -266,14 +269,8 @@
   .header {
     height: 100vh;
     width: 100vh;
-  }
-  .header__linki {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 300px;
-  }
-  .header__linki_photo {
-    display: none;
   }
   .footer, .search-block {
     display: -webkit-box;
@@ -301,6 +298,8 @@
   .search-block__forms_input {
     width: 90%;
     margin: 0 auto;
+    font-size: 18px !important;
+    padding: 10px -10px 10px 0px !important;
   }
   .search-block__forms_button {
     width: 30%;
@@ -308,6 +307,7 @@
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
+    margin-top: 20px;
   }
   .footer__address {
     display: none;
@@ -320,13 +320,14 @@
             justify-content: center;
     margin-top: -150px;
   }
-  .header__linki {
-    width: 90%;
+  .header__link {
+    width: 70%;
   }
   .footer__author {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    margin-left: 150px;
   }
 }
 
@@ -380,6 +381,10 @@
   padding: 15px 33px 0 33px;
   margin-top: 35px;
   height: 60px;
+}
+
+.header__link:hover {
+  color: black;
 }
 
 .news {
@@ -734,7 +739,7 @@
 
 .retrobike_block {
   display: grid;
-  grid-template-columns: 2.15fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 450px;
   margin: 0 auto;
   padding-top: 50px;
@@ -744,11 +749,15 @@
 
 .retrobike_block-img {
   width: 100%;
+  grid-column: 1;
+  grid-row: 1;
   height: 100%;
   background-image: url(../../images/retrobike1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .retrobike_block-img__photo {
@@ -765,6 +774,8 @@
 
 .retrobike_block-img_1 {
   grid-column: 3;
+  -o-object-fit: cover;
+     object-fit: cover;
   grid-row: 1;
   width: 100%;
   background-image: url(../../images/retrobike2.jpg);
@@ -787,11 +798,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 20px;
   height: auto;
 }
 
 .retrobike_block-info__icon {
+  padding-top: 20px;
   width: 23px;
   height: 41px;
 }
@@ -813,8 +824,12 @@
   font-weight: 400;
   line-height: 25px;
   text-align: center;
-  padding: 0 60px 30px 60px;
+  padding: 0 90px 30px 90px;
   text-align: justify;
+}
+
+.retrobike_block-info__photo_img {
+  width: 100%;
 }
 
 * {
@@ -837,6 +852,9 @@
   background-size: cover;
   -webkit-transition: all .5s;
   transition: all .5s;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .gallery__picture2 {
@@ -855,15 +873,22 @@
   grid-column: 4;
   grid-row: 1/3;
   width: 100%;
+  height: 100%;
 }
 
 .gallery__picture5 {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   grid-column: 5/7;
   grid-row: 1;
   width: 100%;
 }
 
 .gallery__picture6 {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   grid-column: 6;
   grid-row: 2;
   width: 100%;
@@ -873,6 +898,9 @@
   grid-column: 5;
   grid-row: 2;
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .gallery__picture8 {
@@ -1118,6 +1146,10 @@ button:hover {
   width: 35px;
   height: 34px;
   background: url(../../images/pinter.png) center center no-repeat, #ed3123;
+}
+
+.footer__icons_pinter:hover, .footer__icons_face:hover, .footer__icons_twitter:hover {
+  background: #a8a3a3;
 }
 
 .footer__author {
