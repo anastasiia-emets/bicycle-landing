@@ -1,5 +1,5 @@
 .discover-block{
-	background-color:  #282f35;
+	background-color: #282f35;
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -7,7 +7,7 @@
 	padding-top:90px;
 	&__button{
 		font-family: 'Lato', sans-serif;
-		color:  #ffffff;
+		color: #ffffff;
 		font-size: 14px;
 		text-align: center;
 		border: 1px solid rgb(148, 151, 154);
@@ -17,8 +17,7 @@
 			background-color: grey;
 			transition: background-color 1000ms linear;
 		}
-	}
-	
+  }
 }
 button:hover{
 	background: gray;
