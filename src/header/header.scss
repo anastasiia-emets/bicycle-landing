@@ -33,8 +33,9 @@
     }
     
   }
-  &__link:hover{
-    color:black;
-  }
     
+}
+.header__link:hover{
+  color: grey;
+  transition: color 1000ms linear;
 }

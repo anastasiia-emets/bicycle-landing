@@ -13,6 +13,10 @@
 		border: 1px solid rgb(148, 151, 154);
 		background: #282f35;
 		padding: 8px 30px 8px 30px;
+		&:hover{
+			background-color: grey;
+			transition: background-color 1000ms linear;
+		}
 	}
 	
 }

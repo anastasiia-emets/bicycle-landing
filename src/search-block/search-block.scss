@@ -43,6 +43,10 @@
 			line-height: 24px;
 			padding:26px 45px 30px 45px;
 			display: inline;
+			&:hover{
+				background-color: grey;
+				transition: background-color 1000ms linear;
+			}
 		}
 	
 	}
