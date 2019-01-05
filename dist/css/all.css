@@ -1,1119 +1,1004 @@
 @media (min-width: 1024px) and (max-width: 1370px) {
-  .news__discription {
-    padding: 0 200px 0 200px !important;
-  }
-  .news {
-    width: 100%;
-  }
-  .gallary-card2 {
-    height: 85%;
-  }
-  .information-block,
-  .information-block2 {
-    -ms-flex-line-pack: center;
-        align-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    height: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0%;
-    margin-bottom: 0px;
-  }
-  .retrobike_block,
-  .retrobike_block-info {
-    display: none;
-  }
+     .news__discription {
+         padding: 0 200px 0 200px !important;
+    }
+     .news {
+         width: 100%;
+    }
+     .gallary-card2 {
+         height: 85%;
+    }
+     .information-block, .information-block2 {
+         -ms-flex-line-pack: center;
+         align-content: center;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         height: auto;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+         padding: 0%;
+         margin-bottom: 0px;
+    }
+     .retrobike_block, .retrobike_block-info {
+         display: none;
+    }
 }
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .news__discription {
-    padding: 0 43px 0 43px !important;
-  }
-  .information-block,
-  .information-block2 {
-    -ms-flex-line-pack: center;
-        align-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0%;
-    margin-bottom: 0px;
-  }
-  .gallary-card__photo,
-  .gallary-card2__photo {
-    display: none;
-  }
-  .retrobike_block-img,
-  .retrobike_block-img_1,
-  .retrobike_block-info__discription {
-    display: none;
-  }
-  .wrapper {
-    margin-top: -100px;
-  }
-  .block_footer,
-  .footer-forms {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .message__discription {
-    padding: 0 80px 0 80px !important;
-  }
-  .header {
-    height: 100vh;
-  }
+ @media (min-width: 768px) and (max-width: 1024px) {
+     .news__discription {
+         padding: 0 43px 0 43px !important;
+    }
+     .information-block, .information-block2 {
+         -ms-flex-line-pack: center;
+         align-content: center;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         -webkit-box-orient: horizontal;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+         flex-direction: row;
+         height: auto;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+         padding: 0%;
+         margin-bottom: 0px;
+    }
+     .gallary-card__photo, .gallary-card2__photo {
+         display: none;
+    }
+     .retrobike_block-img, .retrobike_block-img_1, .retrobike_block-info__discription {
+         display: none;
+    }
+     .wrapper {
+         margin-top: -100px;
+    }
+     .block_footer, .footer-forms {
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+    }
+     .message__discription {
+         padding: 0 80px 0 80px !important;
+    }
+     .header {
+         height: 100vh;
+    }
 }
-
-@media (min-width: 500px) and (max-width: 767px) {
-  body {
-    background: #f7f7f7;
-  }
-  .message__discription {
-    padding: 0 23px 0 23px !important;
-  }
-  .news__discription {
-    padding: 0 23px 0 23px !important;
-  }
-  .gallary-image,
-  .gallary-image2,
-  .retrobike_block-img_1,
-  .retrobike_block-img {
-    display: none;
-  }
-  .news {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .news__discription {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 80%;
-  }
-  .retrobike_block-img__photo {
-    display: none;
-  }
-  .gallary-card2 {
-    height: 85%;
-  }
-  .information-block,
-  .information-block2 {
-    display: none;
-  }
-  .retrobike_block-info {
-    width: 480px;
-    padding: 0;
-  }
-  .gallary-image {
-    width: 100vh;
-  }
-  .retrobike_block-info__photo {
-    display: none;
-  }
-  .retrobike_block-info {
-    height: 50%;
-  }
-  .block_footer,
-  .footer-forms {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .retrobike_block-img {
-    display: none;
-  }
-  .header {
-    height: 100vh;
-    width: 100vh;
-  }
-  .header__linki {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 500px;
-  }
-  .footer, .search-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0;
-    height: auto;
-  }
-  .search-block__forms {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0 auto;
-    margin-left: 2%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 2%;
-  }
-  .search-block__forms_input {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 18px !important;
-    padding: 10px -10px 10px 0px !important;
-  }
-  .search-block__forms_button {
-    width: 30%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  .footer__address {
-    display: none;
-  }
-  .footer__icons {
-    width: 50%;
-    margin: 0 auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: -150px;
-  }
-  .footer__author {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .information-block__item-2 {
-    padding: 0;
-    width: 100%;
-  }
+ @media (min-width: 500px) and (max-width: 767px) {
+     body {
+         background: #f7f7f7;
+    }
+     .message__discription {
+         padding: 0 23px 0 23px !important;
+    }
+     .news__discription {
+         padding: 0 23px 0 23px !important;
+    }
+     .gallary-image, .gallary-image2, .retrobike_block-img_1, .retrobike_block-img {
+         display: none;
+    }
+     .news {
+         padding-left: 0;
+         padding-right: 0;
+    }
+     .news__discription {
+         padding-left: 10px;
+         padding-right: 10px;
+         width: 80%;
+    }
+     .retrobike_block-img__photo {
+         display: none;
+    }
+     .gallary-card2 {
+         height: 85%;
+    }
+     .information-block, .information-block2 {
+         display: none;
+    }
+     .retrobike_block-info {
+         width: 480px;
+         padding: 0;
+    }
+     .gallary-image {
+         width: 100vh;
+    }
+     .retrobike_block-info__photo {
+         display: none;
+    }
+     .retrobike_block-info {
+         height: 50%;
+    }
+     .block_footer, .footer-forms {
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+    }
+     .retrobike_block-img {
+         display: none;
+    }
+     .header {
+         height: 100vh;
+         width: 100vh;
+    }
+     .header__linki {
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         width: 500px;
+    }
+     .footer, .search-block {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: horizontal;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+         flex-direction: row;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         margin: 0;
+         height: auto;
+    }
+     .search-block__forms {
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         margin: 0 auto;
+         margin-left: 2%;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         margin-right: 2%;
+    }
+     .search-block__forms_input {
+         width: 90%;
+         margin: 0 auto;
+         font-size: 18px !important;
+         padding: 10px -10px 10px 0px !important;
+    }
+     .search-block__forms_button {
+         width: 30%;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         margin: 0 auto;
+         margin-top: 20px;
+    }
+     .footer__address {
+         display: none;
+    }
+     .footer__icons {
+         width: 50%;
+         margin: 0 auto;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+         margin-top: -150px;
+    }
+     .footer__author {
+         width: 50%;
+         margin: 0 auto;
+         text-align: center;
+    }
+     .information-block__item-2 {
+         padding: 0;
+         width: 100%;
+    }
 }
-
-@media (min-width: 310px) and (max-width: 500px) {
-  body {
-    background: #f7f7f7;
-  }
-  .news__discription {
-    padding: 0 13px 0 13px !important;
-  }
-  .message__discription {
-    padding: 0 13px 0 13px !important;
-  }
-  .message__header {
-    width: 90%;
-  }
-  .news {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .news__discription {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 80%;
-  }
-  .gallary-card2__photo,
-  .gallary-card__photo,
-  .gallary-image2,
-  .gallary-image__photo {
-    display: none;
-  }
-  .gallary-card,
-  .gallary-card2 {
-    width: 400px;
-    text-align: center;
-    margin: 0;
-  }
-  .gallary-image,
-  .gallary-image2,
-  .retrobike_block-img_1,
-  .retrobike_block-img {
-    display: none;
-  }
-  .retrobike_block-img__photo {
-    display: none;
-  }
-  .retrobike_block-info {
-    width: 320px;
-    text-align: center;
-    padding: 0;
-  }
-  .retrobike_block-info__photo {
-    display: none;
-  }
-  .retrobike_block-info {
-    height: 50%;
-  }
-  .block_footer,
-  .footer-forms {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .retrobike_block-img {
-    display: none;
-  }
-  .header {
-    height: 100vh;
-    width: 100vh;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .footer, .search-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0;
-    height: auto;
-  }
-  .search-block__forms {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0 auto;
-    margin-left: 2%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 2%;
-  }
-  .search-block__forms_input {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 18px !important;
-    padding: 10px -10px 10px 0px !important;
-  }
-  .search-block__forms_button {
-    width: 30%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  .footer__address {
-    display: none;
-  }
-  .footer__icons {
-    width: 50%;
-    margin: 0 auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: -150px;
-  }
-  .header__link {
-    width: 70%;
-  }
-  .footer__author {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    margin-left: 150px;
-  }
+ @media (min-width: 310px) and (max-width: 500px) {
+     body {
+         background: #f7f7f7;
+    }
+     .news__discription {
+         padding: 0 13px 0 13px !important;
+    }
+     .message__discription {
+         padding: 0 13px 0 13px !important;
+    }
+     .message__header {
+         width: 90%;
+    }
+     .news {
+         padding-left: 0;
+         padding-right: 0;
+    }
+     .news__discription {
+         padding-left: 10px;
+         padding-right: 10px;
+         width: 80%;
+    }
+     .gallary-card2__photo, .gallary-card__photo, .gallary-image2, .gallary-image__photo {
+         display: none;
+    }
+     .gallary-card, .gallary-card2 {
+         width: 400px;
+         text-align: center;
+         margin: 0;
+    }
+     .gallary-image, .gallary-image2, .retrobike_block-img_1, .retrobike_block-img {
+         display: none;
+    }
+     .retrobike_block-img__photo {
+         display: none;
+    }
+     .retrobike_block-info {
+         width: 320px;
+         text-align: center;
+         padding: 0;
+    }
+     .retrobike_block-info__photo {
+         display: none;
+    }
+     .retrobike_block-info {
+         height: 50%;
+    }
+     .block_footer, .footer-forms {
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+    }
+     .retrobike_block-img {
+         display: none;
+    }
+     .header {
+         height: 100vh;
+         width: 100vh;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+    }
+     .footer, .search-block {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: horizontal;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+         flex-direction: row;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         margin: 0;
+         height: auto;
+    }
+     .search-block__forms {
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         margin: 0 auto;
+         margin-left: 2%;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         margin-right: 2%;
+    }
+     .search-block__forms_input {
+         width: 90%;
+         margin: 0 auto;
+         font-size: 18px !important;
+         padding: 10px -10px 10px 0px !important;
+    }
+     .search-block__forms_button {
+         width: 30%;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         margin: 0 auto;
+         margin-top: 20px;
+    }
+     .footer__address {
+         display: none;
+    }
+     .footer__icons {
+         width: 50%;
+         margin: 0 auto;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         justify-content: center;
+         margin-top: -150px;
+    }
+     .header__link {
+         width: 70%;
+    }
+     .footer__author {
+         width: 50%;
+         margin: 0 auto;
+         text-align: center;
+         margin-left: 150px;
+    }
 }
-
-@media (min-width: 310px) and (max-width: 370px) {
-  .gallary-card,
-  .gallary-card2 {
-    width: 300px;
-    text-align: center;
-    margin: 0;
-  }
+ @media (min-width: 310px) and (max-width: 370px) {
+     .gallary-card, .gallary-card2 {
+         width: 300px;
+         text-align: center;
+         margin: 0;
+    }
 }
-
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+ * {
+     padding: 0;
+     margin: 0;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
-
-.header {
-  background: url(../images/backg1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  max-width: 100%;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+ .header {
+     background: url(../images/backg1.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     max-width: 100%;
+     position: relative;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
 }
-
-.header__link {
-  text-decoration: none;
-  padding-left: 33px;
-  margin-top: 68px;
-  color: #4d4959;
-  font-weight: 700;
-  font-size: 13px;
-  font-family: 'Lato', sans-serif;
+ .header__link {
+     text-decoration: none;
+     padding-left: 33px;
+     margin-top: 68px;
+     color: #4d4959;
+     font-weight: 700;
+     font-size: 13px;
+     font-family: 'Lato', sans-serif;
 }
-
-.header__link_photo {
-  padding: 15px 33px 0 33px;
-  margin-top: 35px;
-  height: 60px;
+ .header__link_photo {
+     padding: 15px 33px 0 33px;
+     margin-top: 35px;
+     height: 60px;
 }
-
-.header__link:hover {
-  color: grey;
-  -webkit-transition: color 1000ms linear;
-  transition: color 1000ms linear;
+ .header__link:hover {
+     color: grey;
+     -webkit-transition: color 1000ms linear;
+     transition: color 1000ms linear;
 }
-
-.news {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f7f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-bottom: 142px;
-  padding-top: 117px;
+ .news {
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     background-color: #f7f7f7;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-bottom: 142px;
+     padding-top: 117px;
 }
-
-.news__icon {
-  width: 52px;
-  height: 43px;
+ .news__icon {
+     width: 52px;
+     height: 43px;
 }
-
-.news__header {
-  color: #353638;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  text-align: center;
-  font-weight: 700;
-  padding-top: 34px;
-  padding-bottom: 35px;
+ .news__header {
+     color: #353638;
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     text-align: center;
+     font-weight: 700;
+     padding-top: 34px;
+     padding-bottom: 35px;
 }
-
-.news__discription {
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: center;
-  padding: 0 200px 0 200px;
+ .news__discription {
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 34px;
+     text-align: center;
+     padding: 0 200px 0 200px;
 }
-
-.news .footer {
-  margin: 0;
+ .news .footer {
+     margin: 0;
 }
-
-.news .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+ .news .footer {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
 }
-
-.news .footer__icons {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+ .news .footer__icons {
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
 }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+ * {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
-
-.information-block {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 450px;
-  margin: 0 auto;
-  padding-top: 20px;
-  margin-top: -1px;
-  padding-top: 1px;
+ .information-block {
+     display: grid;
+     grid-template-columns: 2fr 2fr 2fr;
+     grid-template-rows: 450px;
+     margin: 0 auto;
+     padding-top: 20px;
+     margin-top: -1px;
+     padding-top: 1px;
 }
-
-.information-block__item-1 {
-  grid-column: 1/3;
-  grid-row: 1;
+ .information-block__item-1 {
+     grid-column: 1/3;
+     grid-row: 1;
 }
-
-.information-block__item-2 {
-  grid-column: 3;
-  grid-row: 1;
+ .information-block__item-2 {
+     grid-column: 3;
+     grid-row: 1;
 }
-
-.gallary-image {
-  height: 100%;
-  background-image: url(../../images/bike1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+ .gallary-image {
+     height: 100%;
+     background-image: url(../images/bike1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
 }
-
-.gallary-image__photo {
-  height: 118px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 40%;
-  left: 45%;
+ .gallary-image__photo {
+     height: 118px;
+     margin: 0 auto;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     position: absolute;
+     top: 40%;
+     left: 45%;
 }
-
-.gallary-card {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f7f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 5px;
+ .gallary-card {
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     background-color: #f7f7f7;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-top: 5px;
 }
-
-.gallary-card__icon {
-  width: 52px;
-  height: 43px;
+ .gallary-card__icon {
+     width: 52px;
+     height: 43px;
 }
-
-.gallary-card__header {
-  color: #353638;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: 700;
+ .gallary-card__header {
+     color: #353638;
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-weight: 700;
 }
-
-.gallary-card__discription {
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25px;
-  text-align: center;
-  padding: 0 40px 20px 40px;
-  text-align: justify;
+ .gallary-card__discription {
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 25px;
+     text-align: center;
+     padding: 0 40px 20px 40px;
+     text-align: justify;
 }
-
-.gallary-card__photo {
-  position: relative;
+ .gallary-card__photo {
+     position: relative;
 }
-
-.gallary-card__photo_img {
-  width: 100%;
-  height: 100%;
+ .gallary-card__photo_img {
+     width: 100%;
+     height: 100%;
 }
-
-.gallary-card__hr {
-  background-color: #f7f7f7;
-  width: 50px;
-  height: 1px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+ .gallary-card__hr {
+     background-color: #f7f7f7;
+     width: 50px;
+     height: 1px;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
-
-.gallary-card__photo:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  border: 15px solid;
-  border-color: #f7f7f7 transparent transparent transparent;
+ .gallary-card__photo:after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 50%;
+     -webkit-transform: translateX(-50%);
+     transform: translateX(-50%);
+     border: 15px solid;
+     border-color: #f7f7f7 transparent transparent transparent;
 }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+ * {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
-
-.information-block2 {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 450px;
-  margin: 0 auto;
-  padding-top: 20px;
-  margin-top: -1px;
-  padding-top: 1px;
+ .information-block2 {
+     display: grid;
+     grid-template-columns: 2fr 2fr 2fr;
+     grid-template-rows: 450px;
+     margin: 0 auto;
+     padding-top: 20px;
+     margin-top: -1px;
+     padding-top: 1px;
 }
-
-.information-block2__item-1 {
-  grid-column: 1;
-  grid-row: 1;
+ .information-block2__item-1 {
+     grid-column: 1;
+     grid-row: 1;
 }
-
-.information-block2__item-2 {
-  grid-column: 2/4;
-  grid-row: 1;
+ .information-block2__item-2 {
+     grid-column: 2/4;
+     grid-row: 1;
 }
-
-.gallary-image2 {
-  height: 100%;
-  background-image: url(../../images/bike4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+ .gallary-image2 {
+     height: 100%;
+     background-image: url(../images/bike4.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
 }
-
-.gallary-image2__photo {
-  height: 152px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 38%;
-  left: 45%;
+ .gallary-image2__photo {
+     height: 152px;
+     margin: 0 auto;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     position: absolute;
+     top: 38%;
+     left: 45%;
 }
-
-.gallary-card2 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f7f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 20px;
+ .gallary-card2 {
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     background-color: #f7f7f7;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-top: 20px;
 }
-
-.gallary-card2__icon {
-  width: 52px;
-  height: 43px;
+ .gallary-card2__icon {
+     width: 52px;
+     height: 43px;
 }
-
-.gallary-card2__header {
-  color: #353638;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 30px;
-  font-weight: 700;
-  padding-bottom: 10px;
+ .gallary-card2__header {
+     color: #353638;
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     text-align: center;
+     padding-top: 30px;
+     font-weight: 700;
+     padding-bottom: 10px;
 }
-
-.gallary-card2__discription {
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25px;
-  text-align: center;
-  padding: 0 40px 20px 40px;
-  text-align: justify;
+ .gallary-card2__discription {
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 25px;
+     text-align: center;
+     padding: 0 40px 20px 40px;
+     text-align: justify;
 }
-
-.gallary-card2__photo {
-  position: relative;
+ .gallary-card2__photo {
+     position: relative;
 }
-
-.gallary-card2__photo_img {
-  width: 100%;
+ .gallary-card2__photo_img {
+     width: 100%;
 }
-
-.gallary-card__hr {
-  background-color: #f7f7f7;
-  width: 50px;
-  height: 1px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+ .gallary-card__hr {
+     background-color: #f7f7f7;
+     width: 50px;
+     height: 1px;
+     margin-top: 10px;
+     margin-bottom: 20px;
 }
-
-.gallary-card2__photo:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  border: 15px solid;
-  border-color: #f7f7f7 transparent transparent transparent;
+ .gallary-card2__photo:after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 50%;
+     -webkit-transform: translateX(-50%);
+     transform: translateX(-50%);
+     border: 15px solid;
+     border-color: #f7f7f7 transparent transparent transparent;
 }
-
-.wrapper {
-  background-color: #f7f7f7;
-  margin-bottom: 40px;
+ .wrapper {
+     background-color: #f7f7f7;
+     margin-bottom: 40px;
 }
-
-.message {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f7f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-bottom: 80px;
-  padding-top: 183px;
+ .message {
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     background-color: #f7f7f7;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-bottom: 80px;
+     padding-top: 183px;
 }
-
-.message__icon {
-  width: 32px;
-  height: 27px;
-  display: n;
+ .message__icon {
+     width: 32px;
+     height: 27px;
+     display: n;
 }
-
-.message__header {
-  color: #353638;
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  text-align: center;
-  font-weight: 700;
-  padding-top: 37px;
-  padding-bottom: 27px;
+ .message__header {
+     color: #353638;
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     text-align: center;
+     font-weight: 700;
+     padding-top: 37px;
+     padding-bottom: 27px;
 }
-
-.message__header_mainstr {
-  display: inline;
+ .message__header_mainstr {
+     display: inline;
 }
-
-.message__header_str {
-  color: #848789;
-  font-weight: 300;
-  display: inline;
+ .message__header_str {
+     color: #848789;
+     font-weight: 300;
+     display: inline;
 }
-
-.message__discription {
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: center;
-  padding: 0 200px 0 200px;
+ .message__discription {
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     font-size: 24px;
+     font-style: italic;
+     font-weight: 400;
+     line-height: 34px;
+     text-align: center;
+     padding: 0 200px 0 200px;
 }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+ * {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
-
-.retrobike-block {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 450px;
-  margin: 0 auto;
-  padding-top: 50px;
-  margin-top: -1px;
-  padding-top: 1px;
+ .retrobike-block {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 450px;
+     margin: 0 auto;
+     padding-top: 50px;
+     margin-top: -1px;
+     padding-top: 1px;
 }
-
-.retrobike-block-img {
-  width: 100%;
-  grid-column: 1;
-  grid-row: 1;
-  height: 100%;
-  background-image: url(../../images/retrobike1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  -o-object-fit: cover;
+ .retrobike-block-img {
+     width: 100%;
+     grid-column: 1;
+     grid-row: 1;
+     height: 100%;
+     background-image: url(../images/retrobike1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     -o-object-fit: cover;
      object-fit: cover;
 }
-
-.retrobike-block-img__photo {
-  width: 177px;
-  height: 152px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 38%;
-  left: 30%;
+ .retrobike-block-img__photo {
+     width: 177px;
+     height: 152px;
+     margin: 0 auto;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     position: absolute;
+     top: 38%;
+     left: 30%;
 }
-
-.retrobike-block-img1 {
-  grid-column: 3;
-  -o-object-fit: cover;
+ .retrobike-block-img1 {
+     grid-column: 3;
+     -o-object-fit: cover;
      object-fit: cover;
-  grid-row: 1;
-  width: 100%;
-  background-image: url(../../images/retrobike2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+     grid-row: 1;
+     width: 100%;
+     background-image: url(../images/retrobike2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
 }
-
-.retrobike-block-info {
-  grid-column: 2;
-  grid-row: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f7f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: auto;
+ .retrobike-block-info {
+     grid-column: 2;
+     grid-row: 1;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     background-color: #f7f7f7;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     height: auto;
 }
-
-.retrobike-block-info__icon {
-  padding-top: 20px;
-  width: 23px;
-  height: 41px;
+ .retrobike-block-info__icon {
+     padding-top: 20px;
+     width: 23px;
+     height: 41px;
 }
-
-.retrobike-block-info__header {
-  color: #353638;
-  font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  text-align: center;
-  font-weight: 700;
-  padding-top: 20px;
-  padding-bottom: 26px;
+ .retrobike-block-info__header {
+     color: #353638;
+     font-family: 'Lato', sans-serif;
+     font-size: 17px;
+     text-align: center;
+     font-weight: 700;
+     padding-top: 20px;
+     padding-bottom: 26px;
 }
-
-.retrobike-block-info__discription {
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 25px;
-  text-align: center;
-  padding: 0 90px 30px 90px;
-  text-align: justify;
+ .retrobike-block-info__discription {
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 25px;
+     text-align: center;
+     padding: 0 90px 30px 90px;
+     text-align: justify;
 }
-
-.retrobike-block-info__photo_img {
-  width: 100%;
+ .retrobike-block-info__photo_img {
+     width: 100%;
 }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+ * {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
-
-.gallery {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+ .gallery {
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-
-.gallery__picture1 {
-  grid-column: 1;
-  grid-row: 1;
-  width: 100%;
-  background-image: url(../../images/gallery1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  height: 100%;
-  -o-object-fit: cover;
+ .gallery__picture1 {
+     grid-column: 1;
+     grid-row: 1;
+     width: 100%;
+     background-image: url(../images/gallery1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     -webkit-transition: all .5s;
+     transition: all .5s;
+     height: 100%;
+     -o-object-fit: cover;
      object-fit: cover;
 }
-
-.gallery__picture2 {
-  grid-column: 2;
-  grid-row: 1;
-  width: 100%;
+ .gallery__picture2 {
+     grid-column: 2;
+     grid-row: 1;
+     width: 100%;
 }
-
-.gallery__picture3 {
-  grid-column: 3;
-  grid-row: 1/3;
-  width: 100%;
+ .gallery__picture3 {
+     grid-column: 3;
+     grid-row: 1/3;
+     width: 100%;
 }
-
-.gallery__picture4 {
-  grid-column: 4;
-  grid-row: 1/3;
-  width: 100%;
-  height: 100%;
+ .gallery__picture4 {
+     grid-column: 4;
+     grid-row: 1/3;
+     width: 100%;
+     height: 100%;
 }
-
-.gallery__picture5 {
-  height: 100%;
-  -o-object-fit: cover;
+ .gallery__picture5 {
+     height: 100%;
+     -o-object-fit: cover;
      object-fit: cover;
-  grid-column: 5/7;
-  grid-row: 1;
-  width: 100%;
+     grid-column: 5/7;
+     grid-row: 1;
+     width: 100%;
 }
-
-.gallery__picture6 {
-  height: 100%;
-  -o-object-fit: cover;
+ .gallery__picture6 {
+     height: 100%;
+     -o-object-fit: cover;
      object-fit: cover;
-  grid-column: 6;
-  grid-row: 2;
-  width: 100%;
+     grid-column: 6;
+     grid-row: 2;
+     width: 100%;
 }
-
-.gallery__picture7 {
-  grid-column: 5;
-  grid-row: 2;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
+ .gallery__picture7 {
+     grid-column: 5;
+     grid-row: 2;
+     width: 100%;
+     height: 100%;
+     -o-object-fit: cover;
      object-fit: cover;
 }
-
-.gallery__picture8 {
-  grid-column: 1/3;
-  grid-row: 2;
-  width: 100%;
+ .gallery__picture8 {
+     grid-column: 1/3;
+     grid-row: 2;
+     width: 100%;
 }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+ * {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
-
-.search-block {
-  background-color: #ffffff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-bottom: 100px;
-  padding-top: 111px;
+ .search-block {
+     background-color: #ffffff;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-bottom: 100px;
+     padding-top: 111px;
 }
-
-.search-block__header {
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  font-size: 24px;
-  font-style: italic;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 15px;
+ .search-block__header {
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     font-size: 24px;
+     font-style: italic;
+     text-align: center;
+     padding-top: 35px;
+     padding-bottom: 15px;
 }
-
-.search-block__forms_input {
-  background-color: #ffffff;
-  border: 1px solid #d3d7d9;
-  font-style: italic;
-  padding: 28px 228px 28px 28px;
-  color: rgba(146, 146, 146, 0.501961);
-  text-align: left;
-  line-height: 24px;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  display: inline;
-  margin-right: 8px;
+ .search-block__forms_input {
+     background-color: #ffffff;
+     border: 1px solid #d3d7d9;
+     font-style: italic;
+     padding: 28px 228px 28px 28px;
+     color: rgba(146, 146, 146, 0.501961);
+     text-align: left;
+     line-height: 24px;
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+     display: inline;
+     margin-right: 8px;
 }
-
-.search-block__forms_button {
-  background-color: #64c29e;
-  border: 1px solid #d3d7d9;
-  color: #fff;
-  font-family: 'Lato', sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  text-align: center;
-  line-height: 24px;
-  padding: 26px 45px 30px 45px;
-  display: inline;
+ .search-block__forms_button {
+     background-color: #64c29e;
+     border: 1px solid #d3d7d9;
+     color: #fff;
+     font-family: 'Lato', sans-serif;
+     font-size: 24px;
+     font-weight: 300;
+     text-align: center;
+     line-height: 24px;
+     padding: 26px 45px 30px 45px;
+     display: inline;
 }
-
-.search-block__forms_button:hover {
-  background-color: grey;
-  -webkit-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
+ .search-block__forms_button:hover {
+     background-color: grey;
+     -webkit-transition: background-color 1000ms linear;
+     transition: background-color 1000ms linear;
 }
-
-.discover-block {
-  background-color: #282f35;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-bottom: 90px;
-  padding-top: 90px;
+ .discover-block {
+     background-color: #282f35;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-bottom: 90px;
+     padding-top: 90px;
 }
-
-.discover-block__button {
-  font-family: 'Lato', sans-serif;
-  color: #ffffff;
-  font-size: 14px;
-  text-align: center;
-  border: 1px solid #94979a;
-  background: #282f35;
-  padding: 8px 30px 8px 30px;
+ .discover-block__button {
+     font-family: 'Lato', sans-serif;
+     color: #ffffff;
+     font-size: 14px;
+     text-align: center;
+     border: 1px solid #94979a;
+     background: #282f35;
+     padding: 8px 30px 8px 30px;
 }
-
-.discover-block__button:hover {
-  background-color: grey;
-  -webkit-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
+ .discover-block__button:hover {
+     background-color: grey;
+     -webkit-transition: background-color 1000ms linear;
+     transition: background-color 1000ms linear;
 }
-
-button:hover {
-  background: gray;
-  opacity: 0.5;
+ button:hover {
+     background: gray;
+     opacity: 0.5;
 }
-
-.footer {
-  background-color: #f7f7f7;
-  padding-top: 200px;
-  padding-bottom: 140px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+ .footer {
+     background-color: #f7f7f7;
+     padding-top: 200px;
+     padding-bottom: 140px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
 }
-
-.footer-item1 {
-  margin-left: 150px;
+ .footer-item1 {
+     margin-left: 150px;
 }
-
-.footer-item1__address-town {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  line-height: 18px;
-  text-align: left;
+ .footer-item1__address-town {
+     font-size: 16px;
+     font-weight: 700;
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     line-height: 18px;
+     text-align: left;
 }
-
-.footer-item1__address-index {
-  font-size: 13px;
-  font-style: italic;
-  font-weight: 400;
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  line-height: 18px;
-  text-align: left;
+ .footer-item1__address-index {
+     font-size: 13px;
+     font-style: italic;
+     font-weight: 400;
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     line-height: 18px;
+     text-align: left;
 }
-
-.footer-item1__address-email {
-  font-size: 13px;
-  font-style: italic;
-  font-weight: 400;
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  line-height: 18px;
-  text-align: left;
+ .footer-item1__address-email {
+     font-size: 13px;
+     font-style: italic;
+     font-weight: 400;
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     line-height: 18px;
+     text-align: left;
 }
-
-.footer-item2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+ .footer-item2 {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
 }
-
-.footer-item2__icons-twitter {
-  border-radius: 50%;
-  margin-right: 10px;
-  width: 35px;
-  height: 34px;
-  background: url(../../images/twitter.png) center center no-repeat, #00aeef;
+ .footer-item2__icons-twitter {
+     border-radius: 50%;
+     margin-right: 10px;
+     width: 35px;
+     height: 34px;
+     background: url(../images/twitter.png) center center no-repeat, #00aeef;
 }
-
-.footer-item2__icons-face {
-  border-radius: 50%;
-  margin-right: 10px;
-  width: 35px;
-  height: 34px;
-  background: url(../../images/face.png) center center no-repeat, #2e3192;
+ .footer-item2__icons-face {
+     border-radius: 50%;
+     margin-right: 10px;
+     width: 35px;
+     height: 34px;
+     background: url(../images/face.png) center center no-repeat, #2e3192;
 }
-
-.footer-item2__icons-pinter {
-  border-radius: 50%;
-  margin-right: 10px;
-  width: 35px;
-  height: 34px;
-  background: url(../../images/pinter.png) center center no-repeat, #ed3123;
+ .footer-item2__icons-pinter {
+     border-radius: 50%;
+     margin-right: 10px;
+     width: 35px;
+     height: 34px;
+     background: url(../images/pinter.png) center center no-repeat, #ed3123;
 }
-
-.footer-item2__icons-pinter:hover, .footer-item2__icons-face:hover, .footer-item2__icons-twitter:hover {
-  background-color: grey;
-  -webkit-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
+ .footer-item2__icons-pinter:hover, .footer-item2__icons-face:hover, .footer-item2__icons-twitter:hover {
+     background-color: grey;
+     -webkit-transition: background-color 1000ms linear;
+     transition: background-color 1000ms linear;
 }
-
-.footer-item3 {
-  margin-right: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+ .footer-item3 {
+     margin-right: 150px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
 }
-
-.footer-item3__author-signatre {
-  font-family: 'Lato', sans-serif;
-  color: #848789;
-  font-size: 13.9px;
-  font-style: italic;
-  line-height: 18px;
-  margin-right: 9px;
+ .footer-item3__author-signatre {
+     font-family: 'Lato', sans-serif;
+     color: #848789;
+     font-size: 13.9px;
+     font-style: italic;
+     line-height: 18px;
+     margin-right: 9px;
 }
-
-.footer-item3__author-logo {
-  width: 55px;
-  height: 36px;
-  margin-bottom: 11px;
+ .footer-item3__author-logo {
+     width: 55px;
+     height: 36px;
+     margin-bottom: 11px;
 }
-
-body {
-  background: #f7f7f7;
+ body {
+     background: #f7f7f7;
 }
+ 
