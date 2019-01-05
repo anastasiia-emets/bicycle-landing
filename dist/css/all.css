@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media (min-width: 1024px) and (max-width: 1370px) {
   .news__discription {
     padding: 0 200px 0 200px !important;
@@ -384,7 +383,9 @@
 }
 
 .header__link:hover {
-  color: black;
+  color: grey;
+  -webkit-transition: color 1000ms linear;
+  transition: color 1000ms linear;
 }
 
 .news {
@@ -476,7 +477,7 @@
 
 .gallary-image {
   height: 100%;
-  background-image: url(../images/bike1.jpg);
+  background-image: url(../../images/bike1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -589,7 +590,7 @@
 
 .gallary-image2 {
   height: 100%;
-  background-image: url(../images/bike4.jpg);
+  background-image: url(../../images/bike4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -737,7 +738,7 @@
           box-sizing: border-box;
 }
 
-.retrobike_block {
+.retrobike-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 450px;
@@ -747,12 +748,12 @@
   padding-top: 1px;
 }
 
-.retrobike_block-img {
+.retrobike-block-img {
   width: 100%;
   grid-column: 1;
   grid-row: 1;
   height: 100%;
-  background-image: url(../images/retrobike1.jpg);
+  background-image: url(../../images/retrobike1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -760,7 +761,7 @@
      object-fit: cover;
 }
 
-.retrobike_block-img__photo {
+.retrobike-block-img__photo {
   width: 177px;
   height: 152px;
   margin: 0 auto;
@@ -772,19 +773,19 @@
   left: 30%;
 }
 
-.retrobike_block-img_1 {
+.retrobike-block-img1 {
   grid-column: 3;
   -o-object-fit: cover;
      object-fit: cover;
   grid-row: 1;
   width: 100%;
-  background-image: url(../images/retrobike2.jpg);
+  background-image: url(../../images/retrobike2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.retrobike_block-info {
+.retrobike-block-info {
   grid-column: 2;
   grid-row: 1;
   -webkit-box-align: center;
@@ -801,13 +802,13 @@
   height: auto;
 }
 
-.retrobike_block-info__icon {
+.retrobike-block-info__icon {
   padding-top: 20px;
   width: 23px;
   height: 41px;
 }
 
-.retrobike_block-info__header {
+.retrobike-block-info__header {
   color: #353638;
   font-family: 'Lato', sans-serif;
   font-size: 17px;
@@ -817,7 +818,7 @@
   padding-bottom: 26px;
 }
 
-.retrobike_block-info__discription {
+.retrobike-block-info__discription {
   font-family: 'Lato', sans-serif;
   color: #848789;
   font-size: 14px;
@@ -828,7 +829,7 @@
   text-align: justify;
 }
 
-.retrobike_block-info__photo_img {
+.retrobike-block-info__photo_img {
   width: 100%;
 }
 
@@ -847,7 +848,7 @@
   grid-column: 1;
   grid-row: 1;
   width: 100%;
-  background-image: url(../images/gallery1.jpg);
+  background-image: url(../../images/gallery1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transition: all .5s;
@@ -909,81 +910,6 @@
   width: 100%;
 }
 
-.overlay {
-  z-index: 10;
-}
-
-a.close-overlay {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 20;
-  width: 45px;
-  height: 45px;
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 45px;
-  text-align: center;
-  background-color: #000;
-  cursor: pointer;
-}
-
-a.close-overlay.hidden {
-  display: none;
-}
-
-#effect .overlay {
-  position: absolute;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(100, 194, 158, 0.8);
-  opacity: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-#effect .overlay a.expand {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  content: "";
-  margin: 0 auto;
-  border-radius: 30px;
-  text-align: center;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 600;
-  font-size: 14px;
-  opacity: 0;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  background: url(../img/white-bike-icon.png) no-repeat top center;
-  padding-top: 25px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  display: block;
-}
-
-#effect .img {
-  overflow: hidden;
-}
-
-#effect .img.hover .overlay {
-  opacity: 1;
-}
-
-#effect .img.hover .overlay a.expand {
-  top: 50%;
-  margin-top: -30px;
-  opacity: 1;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1042,6 +968,12 @@ a.close-overlay.hidden {
   display: inline;
 }
 
+.search-block__forms_button:hover {
+  background-color: grey;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
 .discover-block {
   background-color: #282f35;
   -webkit-box-align: center;
@@ -1068,6 +1000,12 @@ a.close-overlay.hidden {
   padding: 8px 30px 8px 30px;
 }
 
+.discover-block__button:hover {
+  background-color: grey;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
 button:hover {
   background: gray;
   opacity: 0.5;
@@ -1085,11 +1023,11 @@ button:hover {
           justify-content: space-between;
 }
 
-.footer__address {
+.footer-item1 {
   margin-left: 150px;
 }
 
-.footer__address_town {
+.footer-item1__address-town {
   font-size: 16px;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
@@ -1098,7 +1036,7 @@ button:hover {
   text-align: left;
 }
 
-.footer__address_index {
+.footer-item1__address-index {
   font-size: 13px;
   font-style: italic;
   font-weight: 400;
@@ -1108,7 +1046,7 @@ button:hover {
   text-align: left;
 }
 
-.footer__address_email {
+.footer-item1__address-email {
   font-size: 13px;
   font-style: italic;
   font-weight: 400;
@@ -1118,58 +1056,59 @@ button:hover {
   text-align: left;
 }
 
-.footer__icons {
+.footer-item2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer__icons_twitter {
+.footer-item2__icons-twitter {
   border-radius: 50%;
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../images/twitter.png) center center no-repeat, #00aeef;
+  background: url(../../images/twitter.png) center center no-repeat, #00aeef;
 }
 
-.footer__icons_face {
+.footer-item2__icons-face {
   border-radius: 50%;
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../images/face.png) center center no-repeat, #2e3192;
+  background: url(../../images/face.png) center center no-repeat, #2e3192;
 }
 
-.footer__icons_pinter {
+.footer-item2__icons-pinter {
   border-radius: 50%;
   margin-right: 10px;
   width: 35px;
   height: 34px;
-  background: url(../images/pinter.png) center center no-repeat, #ed3123;
+  background: url(../../images/pinter.png) center center no-repeat, #ed3123;
 }
 
-.footer__icons_pinter:hover, .footer__icons_face:hover, .footer__icons_twitter:hover {
-  background: #a8a3a3;
+.footer-item2__icons-pinter:hover, .footer-item2__icons-face:hover, .footer-item2__icons-twitter:hover {
+  background-color: grey;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
 }
 
-.footer__author {
+.footer-item3 {
   margin-right: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer__author_signatre {
+.footer-item3__author-signatre {
   font-family: 'Lato', sans-serif;
   color: #848789;
   font-size: 13.9px;
-  /* Приближение из-за подстановки шрифтов */
   font-style: italic;
   line-height: 18px;
   margin-right: 9px;
 }
 
-.footer__author_logo {
+.footer-item3__author-logo {
   width: 55px;
   height: 36px;
   margin-bottom: 11px;
