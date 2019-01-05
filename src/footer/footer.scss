@@ -5,9 +5,9 @@
 	padding-bottom:140px;
 	display:flex;
 	justify-content: space-between;
-	&__address{
+	&-item1{
 		margin-left:150px;
-		&_town{
+		&__address-town{
 			font-size: 16px;
 			font-weight: 700;
 			font-family: 'Lato', sans-serif;
@@ -15,7 +15,7 @@
 			line-height: 18px;
 			text-align: left;
 		}
-		&_index{
+		&__address-index{
 			font-size: 13px;
 			font-style: italic;
 			font-weight: 400;
@@ -24,7 +24,7 @@
 			line-height: 18px;
 			text-align: left;
 		}
-		&_email{
+		&__address-email{
 			font-size: 13px;
 			font-style: italic;
 			font-weight: 400;
@@ -34,23 +34,23 @@
 			text-align: left;
 		}
 	}
-	&__icons{
+	&-item2{
 		display: flex;
-		&_twitter{
+		&__icons-twitter{
 			border-radius: 50%;
 			margin-right: 10px;
 			width: 35px;
 			height: 34px;
 			background: url(../../images/twitter.png) center center no-repeat,#00aeef;
 		}
-		&_face{
+		&__icons-face{
 			border-radius: 50%;
 			margin-right: 10px;
 			width: 35px;
 			height: 34px;
 			background: url(../../images/face.png) center center no-repeat, #2e3192;
 		}
-		&_pinter{
+		&__icons-pinter{
 			border-radius: 50%;
 			margin-right: 10px;
 			width: 35px;
@@ -65,10 +65,10 @@
 		background: rgb(168, 163, 163);
 	}
 
-	&__author{
+	&-item3{
 		margin-right:150px;
 		display: flex;
-		&_signatre{
+		&__author-signatre{
 			font-family: 'Lato', sans-serif;
 			color:  #848789;
 			font-size: 13.9px;/* Приближение из-за подстановки шрифтов */
@@ -76,7 +76,7 @@
 			line-height: 18px;
 			margin-right: 9px;
 		}
-		&_logo{
+		&__author-logo{
 			width: 55px;
 			height: 36px;
 			margin-bottom:11px;
