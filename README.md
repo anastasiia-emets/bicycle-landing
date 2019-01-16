@@ -1,7 +1,6 @@
 # bicycle-landing
 Landing Bicycle is a website template, you can use it for different projects.
 
-
 # [DEMO](https://anastasiia-emets.github.io/bicycle-landing/dist/index.html)
 # technology
 Includes:
