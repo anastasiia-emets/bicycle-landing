@@ -1,0 +1,25 @@
+.discover-block{
+	background-color: #282f35;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 90px;
+	padding-top:90px;
+	&__button{
+		font-family: 'Lato', sans-serif;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		border: 1px solid rgb(148, 151, 154);
+		background: #282f35;
+		padding: 8px 30px 8px 30px;
+		&:hover{
+			background-color: grey;
+			transition: background-color 1000ms linear;
+		}
+  }
+}
+button:hover{
+	background: gray;
+	opacity: 0.5;
+}
